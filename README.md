@@ -1,19 +1,16 @@
-Level
-=====
+level-hyper
+===========
 
-![LevelDB Logo](https://twimg0-a.akamaihd.net/profile_images/3360574989/92fc472928b444980408147e5e5db2fa_bigger.png)
+**Fast & simple storage - a Node.js-style HyperLevelDB wrapper**
 
-### Fast & simple storage - a Node.js-style LevelDB wrapper**
+[![NPM](https://nodei.co/npm/level-hyper.png)](https://nodei.co/npm/level-hyper/)
 
-[![NPM](https://nodei.co/npm/level.png?stars&downloads)](https://nodei.co/npm/level/) [![NPM](https://nodei.co/npm-dl/level.png)](https://nodei.co/npm/level/)
+This is a convenience package that bundles the current release of **[LevelUP](https://github.com/rvagg/node-levelup)** and **[LevelDOWN-Hyper](https://github.com/rvagg/node-leveldown/tree/hyper-leveldb)** and exposes LevelUP on its export.
 
-
-This is a convenience package that bundles the current release of **[LevelUP](https://github.com/rvagg/node-levelup)** and **[LevelDOWN](https://github.com/rvagg/node-leveldown)** and exposes LevelUP on its export.
-
-Use this package to avoid having to explicitly install LevelDOWN when you just want plain old LevelDB from LevelUP.
+Use this package to avoid having to explicitly install LevelDOWN-Hyper when you want to use LevelDOWN-Hyper with LevelUP.
 
 ```js
-var level = require('level')
+var level = require('level-hyper')
 
 // 1) Create our database, supply location and options.
 //    This will create or open the underlying LevelDB store.
@@ -33,13 +30,13 @@ db.put('name', 'Level', function (err) {
 })
 ```
 
-See **[LevelUP](https://github.com/rvagg/node-levelup)** and **[LevelDOWN](https://github.com/rvagg/node-leveldown)** for more details.
+See **[LevelUP](https://github.com/rvagg/node-levelup)** and **[LevelDOWN-Hyper](https://github.com/rvagg/node-leveldown/tree/hyper-leveldb)** for more details.
 
 <a name="contributing"></a>
 Contributing
 ------------
 
-Level is an **OPEN Open Source Project**. This means that:
+**level-hyper** is an **OPEN Open Source Project**. This means that:
 
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
@@ -70,6 +67,6 @@ Level, including LevelUP & LevelDOWN, is only possible due to the excellent work
 Licence &amp; copyright
 -------------------
 
-Copyright (c) 2012-2013 Level contributors (listed above).
+Copyright (c) 2012-2013 **level-hyper** contributors (listed above).
 
-Level is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
+**level-hyper** is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
