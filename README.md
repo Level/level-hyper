@@ -5,6 +5,8 @@ level-hyper
 
 [![NPM](https://nodei.co/npm/level-hyper.png)](https://nodei.co/npm/level-hyper/)
 
+[![Build Status](https://secure.travis-ci.org/Level/level-hyper.png)](http://travis-ci.org/Level/level-hyper)
+
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/rvagg/node-levelup)** and **[LevelDOWN-Hyper](https://github.com/rvagg/node-leveldown/tree/hyper-leveldb)** and exposes LevelUP on its export.
 
 Use this package to avoid having to explicitly install LevelDOWN-Hyper when you want to use LevelDOWN-Hyper with LevelUP.
