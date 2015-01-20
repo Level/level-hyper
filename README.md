@@ -1,6 +1,8 @@
 level-hyper
 ===========
 
+<img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
+
 **Fast & simple storage - a Node.js-style HyperLevelDB wrapper**
 
 [![NPM](https://nodei.co/npm/level-hyper.png)](https://nodei.co/npm/level-hyper/)
@@ -69,6 +71,6 @@ Level, including LevelUP & LevelDOWN, is only possible due to the excellent work
 Licence &amp; copyright
 -------------------
 
-Copyright (c) 2012-2013 **level-hyper** contributors (listed above).
+Copyright (c) 2012-2015 **level-hyper** contributors (listed above).
 
 **level-hyper** is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
