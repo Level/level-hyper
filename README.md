@@ -34,7 +34,7 @@ db.put('name', 'Level', function (err) {
 })
 ```
 
-See **[LevelUP](https://github.com/rvagg/node-levelup)** and **[LevelDOWN-Hyper](https://github.com/rvagg/node-leveldown/tree/hyper-leveldb)** for more details.
+See **[LevelUP](https://github.com/level/levelup)** and **[LevelDOWN-Hyper](https://github.com/level/leveldown/tree/hyper-leveldb)** for more details.
 
 <a name="contributing"></a>
 Contributing
@@ -73,4 +73,4 @@ Licence &amp; copyright
 
 Copyright (c) 2012-2015 **level-hyper** contributors (listed above).
 
-**level-hyper** is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
+**level-hyper** is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
