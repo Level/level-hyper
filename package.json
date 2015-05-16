@@ -33,8 +33,8 @@
   ],
   "main": "level-hyper.js",
   "dependencies": {
-    "level-packager": "~0.19.3",
-    "leveldown-hyper": "~0.10.5"
+    "level-packager": "next",
+    "leveldown-hyper": "next"
   },
   "devDependencies": {
     "tape": "~4.0.0"
