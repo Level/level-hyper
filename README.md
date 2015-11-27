@@ -8,6 +8,7 @@ level-hyper
 [![NPM](https://nodei.co/npm/level-hyper.png)](https://nodei.co/npm/level-hyper/)
 
 [![Build Status](https://secure.travis-ci.org/Level/level-hyper.png)](http://travis-ci.org/Level/level-hyper)
+[![dependencies](https://david-dm.org/Level/level-hyper.svg)](https://david-dm.org/level/level-hyper)
 
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/level/levelup)** and **[LevelDOWN-Hyper](https://github.com/level/leveldown-hyper)** and exposes LevelUP on its export.
 
