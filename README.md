@@ -14,6 +14,12 @@ This is a convenience package that bundles the current release of **[LevelUP](ht
 
 Use this package to avoid having to explicitly install LevelDOWN-Hyper when you want to use LevelDOWN-Hyper with LevelUP.
 
+<a name="usage"></a>
+Usage
+-----
+
+Basic usage for putting and getting data:
+
 ```js
 var level = require('level-hyper')
 
@@ -31,6 +37,19 @@ db.put('name', 'Level', function (err) {
 
     // ta da!
     console.log('name=' + value)
+  })
+})
+```
+
+The `.liveBackup()` method is accessible on the underlying `LevelDOWN-Hyper` object:
+
+```js
+var level = require('level-hyper')
+var db = level('./mydb')
+db.on('ready', function () {
+  var name = String(Date.now())
+  db.db.liveBackup(name, function (err) {
+    if (!err) console.log('backup to %s was successful', name)
   })
 })
 ```
