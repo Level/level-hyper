@@ -1,6 +1,8 @@
 level-hyper
 ===========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Level/level-hyper.svg)](https://greenkeeper.io/)
+
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
 
 **Fast & simple storage - a Node.js-style HyperLevelDB wrapper**
