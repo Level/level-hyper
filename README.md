@@ -1,16 +1,13 @@
 level-hyper
 ===========
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Level/level-hyper.svg)](https://greenkeeper.io/)
-
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
 
 **Fast & simple storage - a Node.js-style HyperLevelDB wrapper**
 
 [![NPM](https://nodei.co/npm/level-hyper.png)](https://nodei.co/npm/level-hyper/)
 
-[![Build Status](https://secure.travis-ci.org/Level/level-hyper.png)](http://travis-ci.org/Level/level-hyper)
-[![dependencies](https://david-dm.org/Level/level-hyper.svg)](https://david-dm.org/level/level-hyper)
+[![Build Status](https://secure.travis-ci.org/Level/level-hyper.png)](http://travis-ci.org/Level/level-hyper) [![dependencies](https://david-dm.org/Level/level-hyper.svg)](https://david-dm.org/level/level-hyper) [![Greenkeeper badge](https://badges.greenkeeper.io/Level/level-hyper.svg)](https://greenkeeper.io/)
 
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/level/levelup)** and **[LevelDOWN-Hyper](https://github.com/level/leveldown-hyper)** and exposes LevelUP on its export.
 
