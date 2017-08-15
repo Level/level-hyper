@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright (c) 2012-2016 level-hyper contributors
+Copyright (c) 2012-2017 level-hyper contributors
 ---------------------------------------
 
 *level-hyper contributors listed at <https://github.com/level/levelup-hyper#contributors>*
