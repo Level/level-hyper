@@ -22,10 +22,22 @@
     "leveldown-hyper": "~2.0.0"
   },
   "devDependencies": {
+    "level-community": "^3.0.0",
+    "remark-cli": "^5.0.0",
+    "remark-git-contributors": "^0.2.1",
     "tape": "^4.2.2"
   },
   "scripts": {
-    "test": "node ./test.js"
+    "test": "node ./test.js",
+    "remark": "remark README.md CONTRIBUTORS.md -o"
+  },
+  "remarkConfig": {
+    "plugins": [
+      [
+        "remark-git-contributors",
+        "level-community"
+      ]
+    ]
   },
   "license": "MIT",
   "engines": {
