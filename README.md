@@ -1,21 +1,20 @@
-level-hyper
-===========
+# level-hyper
 
-<img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
+> Fast & simple storage - a Node.js-style HyperLevelDB wrapper
 
-**Fast & simple storage - a Node.js-style HyperLevelDB wrapper**
+[![level badge][level-badge]](https://github.com/level/awesome)
+[![npm](https://img.shields.io/npm/v/level-hyper.svg)](https://www.npmjs.com/package/level-hyper)
+![Node version](https://img.shields.io/node/v/level-hyper.svg)
+[![Build Status](https://img.shields.io/travis/Level/level-hyper.png)](https://travis-ci.org/Level/level-hyper)
+[![dependencies](https://david-dm.org/Level/level-hyper.svg)](https://david-dm.org/level/level-hyper)
+[![npm](https://img.shields.io/npm/dm/level-hyper.svg)](https://www.npmjs.com/package/level-hyper)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![NPM](https://nodei.co/npm/level-hyper.png)](https://nodei.co/npm/level-hyper/)
+This is a convenience package that bundles the current release of **[levelup](https://github.com/level/levelup)** and **[leveldown-hyper](https://github.com/level/leveldown-hyper)** and exposes `levelup` on its export.
 
-[![Build Status](https://secure.travis-ci.org/Level/level-hyper.png)](http://travis-ci.org/Level/level-hyper) [![dependencies](https://david-dm.org/Level/level-hyper.svg)](https://david-dm.org/level/level-hyper) [![Greenkeeper badge](https://badges.greenkeeper.io/Level/level-hyper.svg)](https://greenkeeper.io/)
+Use this package to avoid having to explicitly install `leveldown-hyper` when you want to use `leveldown-hyper` with `levelup`.
 
-This is a convenience package that bundles the current release of **[LevelUP](https://github.com/level/levelup)** and **[LevelDOWN-Hyper](https://github.com/level/leveldown-hyper)** and exposes LevelUP on its export.
-
-Use this package to avoid having to explicitly install LevelDOWN-Hyper when you want to use LevelDOWN-Hyper with LevelUP.
-
-<a name="usage"></a>
-Usage
------
+## Usage
 
 Basic usage for putting and getting data:
 
@@ -53,22 +52,20 @@ db.on('ready', function () {
 })
 ```
 
-See **[LevelUP](https://github.com/level/levelup)** and **[LevelDOWN-Hyper](https://github.com/level/leveldown-hyper)** for more details.
+See **[levelup](https://github.com/level/levelup)** and **[leveldown-hyper](https://github.com/level/leveldown-hyper)** for more details.
 
-<a name="contributing"></a>
-Contributing
-------------
+## Contributing
 
-**level-hyper** is an **OPEN Open Source Project**. This means that:
+`level-hyper` is an **OPEN Open Source Project**. This means that:
 
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
 See the [contribution guide](https://github.com/Level/community/blob/master/CONTRIBUTING.md) for more details.
 
-<a name="licence"></a>
-Licence &amp; Copyright
--------------------
+## Licence
 
-Copyright (c) 2012-2017 **level-hyper** [contributors](https://github.com/level/community#contributors).
+Copyright © 2012-present `level-hyper` [contributors](https://github.com/level/community#contributors).
 
-**level-hyper** is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
+`level-hyper` is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
+
+[level-badge]: http://leveldb.org/img/badge.svg
