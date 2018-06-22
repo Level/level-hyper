@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.0.0] - 2018-06-22
+
 ### Changed
 
 -   Upgrade `level-packager` from `~1.2.0` to `~4.0.0` ([**@ralphtheninja**](https://github.com/ralphtheninja))
@@ -120,7 +122,9 @@
 
 Initial release :seedling:.
 
-[unreleased]: https://github.com/level/level-hyper/compare/v1.2.2...HEAD
+[unreleased]: https://github.com/level/level-hyper/compare/v2.0.0...HEAD
+
+[2.0.0]: https://github.com/level/level-hyper/compare/v1.2.2...v2.0.0
 
 [1.2.2]: https://github.com/level/level-hyper/compare/v1.2.1...v1.2.2
 
