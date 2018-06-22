@@ -14,6 +14,7 @@
 -   Add node 9 and 10 to Travis ([**@ralphtheninja**](https://github.com/ralphtheninja))
 -   Add `remark` tooling ([**@ralphtheninja**](https://github.com/ralphtheninja))
 -   Add `CONTRIBUTORS.md` ([**@ralphtheninja**](https://github.com/ralphtheninja))
+-   Add `UPGRADING.md` ([**@ralphtheninja**](https://github.com/ralphtheninja))
 
 ### Removed
 
