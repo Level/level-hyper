@@ -4,7 +4,7 @@ This document describes breaking changes and how to upgrade. For a complete list
 
 ## v2
 
-Dropped support for node 4. No other breaking changes.
+Dropped support for node 0.12, 4, 5 and 7.
 
 This is an upgrade to `leveldown-hyper@~2.0.0` which is based on `abstract-leveldown@~5.0.0` which in turn contains breaking changes to [`.batch()`](https://github.com/Level/abstract-leveldown/commit/a2621ad70571f6ade9d2be42632ece042e068805). Though this is negated by `levelup`, we decided to release a new major version in the event of dependents reaching down into `db.db`.
 
