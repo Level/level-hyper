@@ -1,7 +1,7 @@
 {
   "name": "level-hyper",
   "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN) [HyperDex fork]",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/Level/level-hyper.git"
