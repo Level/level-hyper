@@ -30,7 +30,7 @@
   },
   "scripts": {
     "test": "node ./test.js",
-    "remark": "remark README.md CHANGELOG.md CONTRIBUTORS.md -o"
+    "remark": "remark README.md CHANGELOG.md CONTRIBUTORS.md UPGRADING.md -o"
   },
   "remarkConfig": {
     "plugins": [

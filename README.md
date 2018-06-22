@@ -14,6 +14,8 @@ This is a convenience package that bundles the current release of **[levelup](ht
 
 Use this package to avoid having to explicitly install `leveldown-hyper` when you want to use `leveldown-hyper` with `levelup`.
 
+**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md).
+
 ## Usage
 
 Basic usage for putting and getting data:
