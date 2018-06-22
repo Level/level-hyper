@@ -39,7 +39,7 @@ db.put('name', 'Level', function (err) {
 })
 ```
 
-The `.liveBackup()` method is accessible on the underlying `LevelDOWN-Hyper` object:
+The `.liveBackup()` method is accessible on the underlying `leveldown-hyper` object:
 
 ```js
 var level = require('level-hyper')
