@@ -6,11 +6,11 @@ This document describes breaking changes and how to upgrade. For a complete list
 
 Dropped support for node 0.12, 4, 5 and 7.
 
-This is an upgrade to `leveldown-hyper@~2.0.0` which is based on `abstract-leveldown@~5.0.0` which in turn contains breaking changes to [`.batch()`](https://github.com/Level/abstract-leveldown/commit/a2621ad70571f6ade9d2be42632ece042e068805). Though this is negated by `levelup`, we decided to release a new major version in the event of dependents reaching down into `db.db`.
+This is an upgrade to `leveldown-hyper@~2.0.0` which depends on `abstract-leveldown@~5.0.0` which in turn contains breaking changes to [`.batch()`](https://github.com/Level/abstract-leveldown/commit/a2621ad70571f6ade9d2be42632ece042e068805). Though this is negated by `levelup`, we decided to release a new major version in the event of dependents reaching down into `db.db`.
 
-The parts that make up `level` have been refactored to increase modularity. This is an upgrade to `level-packager@~4.0.0`, which in turn upgraded to `levelup@^3.0.0`. The responsibility of encoding keys and values moved from [`levelup`](https://github.com/Level/levelup) to [`encoding-down`](https://github.com/Level/encoding-down), which comes bundled with [`level-packager`](https://github.com/Level/packager).
+The parts that make up `level-hyper` have been refactored to increase modularity. This is an upgrade to `level-packager@~4.0.0`, which in turn upgraded to `levelup@^3.0.0`. The responsibility of encoding keys and values moved from [`levelup`](https://github.com/Level/levelup) to [`encoding-down`](https://github.com/Level/encoding-down), which comes bundled with [`level-packager`](https://github.com/Level/packager).
 
-Being a convenience package, `level` glues the parts back together to form a drop-in replacement for the users of `levelup@1`, while staying fully compatible with `level@1`. One thing we do get for free, is native Promise support.
+Being a convenience package, `level-hyper` glues the parts back together to form a drop-in replacement for the users of `levelup@1`, while staying fully compatible with `level@1`. One thing we do get for free, is native Promise support.
 
 ```js
 const db = level('db')
