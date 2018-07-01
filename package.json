@@ -26,10 +26,11 @@
     "remark-cli": "^5.0.0",
     "remark-git-contributors": "^0.2.1",
     "remark-github": "^7.0.3",
+    "standard": "^11.0.1",
     "tape": "^4.2.2"
   },
   "scripts": {
-    "test": "node ./test.js",
+    "test": "standard && node test.js",
     "remark": "remark README.md CHANGELOG.md CONTRIBUTORS.md UPGRADING.md -o"
   },
   "remarkConfig": {
