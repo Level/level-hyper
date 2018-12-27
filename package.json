@@ -18,7 +18,7 @@
   ],
   "main": "level-hyper.js",
   "dependencies": {
-    "level-packager": "~4.0.0",
+    "level-packager": "~5.0.0",
     "leveldown-hyper": "~2.0.0"
   },
   "devDependencies": {
