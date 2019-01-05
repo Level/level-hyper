@@ -67,6 +67,6 @@ See the [contribution guide](https://github.com/Level/community/blob/master/CONT
 
 ## License
 
-[MIT](./LICENSE.md) © 2012-present `level-hyper` [Contributors](./CONTRIBUTORS.md).
+[MIT](LICENSE.md) © 2012-present [Contributors](CONTRIBUTORS.md).
 
 [level-badge]: http://leveldb.org/img/badge.svg
