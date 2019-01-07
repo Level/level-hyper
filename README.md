@@ -2,16 +2,17 @@
 
 > Fast & simple storage - a Node.js-style HyperLevelDB wrapper
 
-[![level badge][level-badge]](https://github.com/level/awesome)
-[![npm](https://img.shields.io/npm/v/level-hyper.svg)](https://www.npmjs.com/package/level-hyper)
-![Node version](https://img.shields.io/node/v/level-hyper.svg)
-[![Build Status](https://img.shields.io/travis/Level/level-hyper.png)](https://travis-ci.org/Level/level-hyper)
-[![dependencies](https://david-dm.org/Level/level-hyper.svg)](https://david-dm.org/level/level-hyper)
-[![npm](https://img.shields.io/npm/dm/level-hyper.svg)](https://www.npmjs.com/package/level-hyper)
+[![level badge][level-badge]](https://github.com/Level/awesome)
+[![npm](https://img.shields.io/npm/v/level-hyper.svg?label=&logo=npm)](https://www.npmjs.com/package/level-hyper)
+[![Node version](https://img.shields.io/node/v/level-hyper.svg)](https://www.npmjs.com/package/level-hyper)
+[![Travis](https://img.shields.io/travis/Level/level-hyper.svg?logo=travis&label=)](https://travis-ci.org/Level/level-hyper)
+[![npm](https://img.shields.io/npm/dm/level-hyper.svg?label=dl)](https://www.npmjs.com/package/level-hyper)
 [![Coverage Status](https://coveralls.io/repos/github/Level/level-hyper/badge.svg)](https://coveralls.io/github/Level/level-hyper)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Backers on Open Collective](https://opencollective.com/level/backers/badge.svg?color=orange)](#backers)
+[![Sponsors on Open Collective](https://opencollective.com/level/sponsors/badge.svg?color=orange)](#sponsors)
 
-This is a convenience package that bundles the current release of **[levelup](https://github.com/level/levelup)** and **[leveldown-hyper](https://github.com/level/leveldown-hyper)** and exposes `levelup` on its export.
+This is a convenience package that bundles the current release of **[levelup](https://github.com/Level/levelup)** and **[leveldown-hyper](https://github.com/Level/leveldown-hyper)** and exposes `levelup` on its export.
 
 Use this package to avoid having to explicitly install `leveldown-hyper` when you want to use `leveldown-hyper` with `levelup`.
 
@@ -55,7 +56,7 @@ db.on('ready', function () {
 })
 ```
 
-See **[levelup](https://github.com/level/levelup)** and **[leveldown-hyper](https://github.com/level/leveldown-hyper)** for more details.
+See **[levelup](https://github.com/Level/levelup)** and **[leveldown-hyper](https://github.com/Level/leveldown-hyper)** for more details.
 
 ## Contributing
 
@@ -64,6 +65,18 @@ See **[levelup](https://github.com/level/levelup)** and **[leveldown-hyper](http
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
 See the [Contribution Guide](https://github.com/Level/community/blob/master/CONTRIBUTING.md) for more details.
+
+## Donate
+
+To sustain [`Level`](https://github.com/Level) and its activities, become a backer or sponsor on [Open Collective](https://opencollective.com/level). Your logo or avatar will be displayed on our 28+ [GitHub repositories](https://github.com/Level), [npm](https://www.npmjs.com/) packages and (soon) [our website](http://leveldb.org). 💖
+
+### Backers
+
+[![Open Collective backers](https://opencollective.com/level/backers.svg?width=890)](https://opencollective.com/level)
+
+### Sponsors
+
+[![Open Collective sponsors](https://opencollective.com/level/sponsors.svg?width=890)](https://opencollective.com/level)
 
 ## License
 
