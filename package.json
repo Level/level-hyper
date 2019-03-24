@@ -4,6 +4,7 @@
   "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN) [HyperDex fork]",
   "license": "MIT",
   "main": "level-hyper.js",
+  "type": "level-hyper.d.ts",
   "scripts": {
     "test": "standard && hallmark && nyc node test.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
