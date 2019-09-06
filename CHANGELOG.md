@@ -1,7 +1,5 @@
 # Changelog
 
-## [Unreleased][unreleased]
-
 ## [2.0.0] - 2018-06-22
 
 ### Changed
@@ -121,8 +119,6 @@
 ## 0.17.0 - 2013-10-09
 
 Initial release :seedling:.
-
-[unreleased]: https://github.com/level/level-hyper/compare/v2.0.0...HEAD
 
 [2.0.0]: https://github.com/level/level-hyper/compare/v1.2.2...v2.0.0
 
