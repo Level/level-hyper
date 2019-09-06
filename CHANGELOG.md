@@ -1,7 +1,5 @@
 # Changelog
 
-## [Unreleased][unreleased]
-
 ## [2.0.0] - 2018-06-22
 
 ### Changed
@@ -122,24 +120,22 @@
 
 Initial release :seedling:.
 
-[unreleased]: https://github.com/level/level-hyper/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/Level/level-hyper/compare/v1.2.2...v2.0.0
 
-[2.0.0]: https://github.com/level/level-hyper/compare/v1.2.2...v2.0.0
+[1.2.2]: https://github.com/Level/level-hyper/compare/v1.2.1...v1.2.2
 
-[1.2.2]: https://github.com/level/level-hyper/compare/v1.2.1...v1.2.2
+[1.2.1]: https://github.com/Level/level-hyper/compare/v1.2.0...v1.2.1
 
-[1.2.1]: https://github.com/level/level-hyper/compare/v1.2.0...v1.2.1
+[1.2.0]: https://github.com/Level/level-hyper/compare/v1.1.0...v1.2.0
 
-[1.2.0]: https://github.com/level/level-hyper/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/Level/level-hyper/compare/v1.0.0...v1.1.0
 
-[1.1.0]: https://github.com/level/level-hyper/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/Level/level-hyper/compare/v1.0.0-0...v1.0.0
 
-[1.0.0]: https://github.com/level/level-hyper/compare/v1.0.0-0...v1.0.0
+[1.0.0-0]: https://github.com/Level/level-hyper/compare/v0.19.1...v1.0.0-0
 
-[1.0.0-0]: https://github.com/level/level-hyper/compare/v0.19.1...v1.0.0-0
+[0.19.1]: https://github.com/Level/level-hyper/compare/v0.19.0...v0.19.1
 
-[0.19.1]: https://github.com/level/level-hyper/compare/v0.19.0...v0.19.1
+[0.19.0]: https://github.com/Level/level-hyper/compare/0.18.0...v0.19.0
 
-[0.19.0]: https://github.com/level/level-hyper/compare/0.18.0...v0.19.0
-
-[0.18.0]: https://github.com/level/level-hyper/compare/0.17.0...0.18.0
+[0.18.0]: https://github.com/Level/level-hyper/compare/0.17.0...0.18.0
